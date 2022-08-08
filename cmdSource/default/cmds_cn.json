@@ -1,5 +1,9 @@
 {
     "cmds":[
+	{
+            "cmdName" : "抓入参",
+            "cmdLines" : "l HttpTool postRequestWithUrl:params:success:failure:"
+        },
         {
             "cmdName" : "JSON序列化抓包",
             "cmdLines" : "f {;l NSJSONSerialization JSONObjectWithData:options:error:"
