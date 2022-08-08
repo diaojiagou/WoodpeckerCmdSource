@@ -5,7 +5,7 @@
             "cmdLines" : "l HttpTool requestPostUrl:params:success:failure:;l HttpTool postRequestWithUrl:params:success:failure:;l HttpTool gatewayPostUrl:params:success:failure:;l HttpTool postWithoutLoadingWithUrl:params:success:failure:;l HttpTool postWithUrl:params:success:failure:;l HttpTool postDataWithUrl:andReq:completionHandler:;"
         },
         {
-            "cmdName" : "JSON序列化抓包",
+            "cmdName" : "抓出参",
             "cmdLines" : "f {;l NSJSONSerialization JSONObjectWithData:options:error:"
         },
         {
